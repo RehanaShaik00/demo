@@ -5,6 +5,6 @@ Library     Collections
 
 *** Keywords ***
 MCXjsondata
-    ${json_obj}=        load json from file    MCXJsonData.json
+    ${json_obj}=        load json from file    demo/Danfoss/MCXJsonData.json
     [Return]    ${json_obj}
 
