@@ -21,7 +21,7 @@ steps:
 
 
 - script: |
-    pip install webdriver-manager robotframework robotframework-seleniumlibrary && npm install chromedriver
+    pip install webdriver-manager robotframework robotframework-seleniumlibrary robotframework-jsonlibray && npm install chromedriver
   displayName: 'Install dependencies'
 
 
