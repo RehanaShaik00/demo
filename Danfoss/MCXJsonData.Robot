@@ -5,6 +5,6 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 MCXjsondata
-    ${json_obj}=        load json from file    C:/Users/99003549/PycharmProjects/demo/Danfoss/MCXJsonData.json
+    ${json_obj}=        load json from file    Danfoss/MCXJsonData.json
     [Return]    ${json_obj}
 
