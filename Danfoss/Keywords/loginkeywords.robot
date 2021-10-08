@@ -10,8 +10,8 @@ Launch website
     open browser    ${url}      ${browser}
 
 Enter UserName
-    ${user}     MCXjsondata
-    input text      ${username}        ${user['username'}
+    #${user}     MCXjsondata
+    input text      ${username}        admin
 
 Enter Password
     input text      ${password}       PASS
