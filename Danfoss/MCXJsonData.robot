@@ -1,7 +1,7 @@
 *** Settings ***
 Library     JSONLibrary
 Library     Collections
-#Library  SeleniumLibrary
+Library  SeleniumLibrary
 
 *** Keywords ***
 MCXjsondata
