@@ -3,10 +3,8 @@ Library     JSONLibrary
 Library     Collections
 Library  SeleniumLibrary
 
-*** Variables ***
-${json_path}        Danfoss/MCXJsonData.json
 *** Keywords ***
 MCXjsondata
-    ${json_obj}=        load json from file   ${json_path}
+    ${json_obj}=        load json from file   Danfoss/MCXJsonData.json
     [Return]    ${json_obj}
 
