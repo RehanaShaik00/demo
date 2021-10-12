@@ -6,6 +6,6 @@ Library     OperatingSystem
 
 *** Keywords ***
 MCXjsondata
-    ${json_obj}=        Load Json From File   Danfoss/MCXJsonData.json
+    ${json_obj}=        Load Json From File   ${CURDIR}/MCXJsonData.json
     [Return]    ${json_obj}
 
