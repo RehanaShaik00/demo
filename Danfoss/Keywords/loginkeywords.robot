@@ -1,5 +1,5 @@
 *** Settings ***
-#Library     SeleniumLibrary
+Library     SeleniumLibrary
 Resource    ../MCXJsonData.robot
 Variables   ../PageObjects/Login.py
 
