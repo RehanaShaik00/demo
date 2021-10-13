@@ -1,5 +1,5 @@
 *** Setting ***
-#Library     SeleniumLibrary
+Library     SeleniumLibrary
 Resource    ../Keywords/loginkeywords.robot
 
 *** Keywords ***
